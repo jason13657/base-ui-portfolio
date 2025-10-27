@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* Primary */
+  --color-primary: rgb(47 107 86);
+  --color-primary-hover: rgb(58 127 103);
+  --color-primary-active: rgb(38 94 76);
+  --color-on-primary: rgb(255 255 255);
+
+  /* Secondary */
+  --color-secondary: rgb(136 198 160);
+  --color-secondary-hover: rgb(116 184 142);
+  --color-secondary-active: rgb(102 169 127);
+  --color-on-secondary: rgb(255 255 255);
+
+  /* Surface */
+  --color-surface: rgb(246 247 249);
+  --color-surface-hover: rgb(238 240 242);
+  --color-surface-active: rgb(224 226 229);
+  --color-on-surface: rgb(29 31 34);
+
+  /* Tertiary */
+  --color-tertiary: rgb(232 194 92);
+  --color-tertiary-hover: rgb(201 163 73);
+  --color-tertiary-active: rgb(184 144 60);
+  --color-on-tertiary: rgb(0 0 0);
+
+  /* Error */
+  --color-error: rgb(196 58 58);
+  --color-on-error: rgb(255 255 255);
+}
